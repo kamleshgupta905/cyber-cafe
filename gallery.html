@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Inside NeoCyber Luxe - A visual tour of Delhi's most advanced digital hub architectures.">
+    <title>The Space | NeoCyber Luxe Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#050505] text-white">
+
+    <!-- Header Luxe -->
+    <nav class="fixed top-0 w-full z-[100] nav-luxe h-20">
+        <div class="container-luxe h-full flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold tracking-[0.2em] uppercase">NeoCyber<span
+                    class="text-[var(--luxe-accent)]"> / </span>Hub</a>
+
+            <!-- Desktop Links -->
+            <div class="hidden lg:flex items-center space-x-12">
+                <a href="index.html" class="nav-link-luxe">Home</a>
+                <a href="services.html" class="nav-link-luxe">Services</a>
+                <a href="pricing.html" class="nav-link-luxe">Pricing</a>
+                <a href="gallery.html" class="nav-link-luxe active">Gallery</a>
+                <a href="contact.html" class="nav-link-luxe">Contact</a>
+            </div>
+
+            <!-- Mobile Burger -->
+            <button id="mobile-burger-btn"
+                class="lg:hidden text-white hover:text-[var(--luxe-accent)] transition-colors p-2">
+                <svg id="burger-icon" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+        <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <header class="pt-56 pb-24 text-center">
+        <div class="container-luxe reveal-luxe active">
+            <h1 class="hero-title-luxe mb-8">Spatial <br>Intelligence.</h1>
+            <p class="hero-subtitle-luxe mx-auto">A visual record of a sanctuary built for absolute focus and
+                high-stakes performance.</p>
+        </div>
+    </header>
+
+    <main class="container-luxe py-20 pb-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-40">
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1497366216548-37526070297c', 'The Grand Entry')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1497366216548-37526070297c" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Entry Hub</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe" style="transition-delay: 50ms;"
+                onclick="openLightbox('https://images.unsplash.com/photo-1593305841991-05c297ba4575', 'Developer Precision Hub')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1593305841991-05c297ba4575" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Pro Workstation</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe" style="transition-delay: 100ms;"
+                onclick="openLightbox('https://images.unsplash.com/photo-1542751371-adc38448a05e', 'The Underground Arena')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1542751371-adc38448a05e" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Cinematic Arena</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1517502884422-41eaead166d4', 'Obsidian Focus Capsule')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1517502884422-41eaead166d4" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Silent Capsule</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1524758631624-e2822e304c36', 'The Design Lab')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Creative Node</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=90', 'Executive Floor')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=800&q=80"
+                        class="card-luxe-img" alt="Executive Zone"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Executive Zone</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&w=1200&q=90', 'Industrial Data Center')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&w=800&q=80"
+                        class="card-luxe-img" alt="Data Node"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Data Node</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1519389950473-47ba0277781c', 'Collaboration Tech Suite')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Collab Node</h4>
+                </div>
+            </div>
+
+            <div class="card-luxe reveal-luxe"
+                onclick="openLightbox('https://images.unsplash.com/photo-1550751827-4bd374c3f58b', 'Hardened Security Node')">
+                <div class="card-luxe-img-box h-[500px]"><img
+                        src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" class="card-luxe-img"></div>
+                <div class="p-8">
+                    <h4 class="text-xs font-bold uppercase tracking-[0.3em]">Secure Zone</h4>
+                </div>
+            </div>
+        </div>
+
+        <section class="text-center reveal-luxe">
+            <h2 class="text-4xl font-bold mb-8">Experience the Architecture.</h2>
+            <a href="contact.html" class="btn-luxe btn-luxe-outline">Schedule a Tour</a>
+        </section>
+    </main>
+
+    <!-- Lightbox Luxe -->
+    <div id="lightbox"
+        class="hidden fixed inset-0 z-[200] bg-black flex items-center justify-center opacity-0 transition-opacity duration-700">
+        <div class="absolute inset-0 bg-neutral-950/90 backdrop-blur-3xl"></div>
+        <button onclick="closeLightbox()"
+            class="absolute top-10 right-10 text-white hover:text-[var(--luxe-accent)] z-20"><svg class="w-10 h-10"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg></button>
+        <div class="max-w-7xl w-full text-center p-6 relative z-10">
+            <img id="lightbox-img" src="" class="max-w-full max-h-[75vh] mx-auto mb-10 shadow-2xl">
+            <p id="lightbox-caption" class="text-2xl font-bold tracking-tight"></p>
+        </div>
+    </div>
+
+    <!-- Detailed Footer -->
+    <footer class="footer-luxe pt-32 pb-16 border-t border-[var(--luxe-border)] bg-black">
+        <div class="container-luxe">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-24 mb-32 text-left">
+                <div class="md:col-span-2">
+                    <span class="text-2xl font-bold tracking-[0.2em] uppercase mb-10 block">NeoCyber Luxe</span>
+                    <p class="text-gray-500 max-w-sm mb-10">Delhi's premier sanctuary for digital performance. Bridging
+                        the gap between superior technology and architectural design.</p>
+                </div>
+                <!-- ... shared footer content ... -->
+                <div>
+                    <h5 class="text-[10px] uppercase font-bold tracking-[0.4em] text-[var(--luxe-accent)] mb-10">
+                        Exploration</h5>
+                    <nav class="flex flex-col gap-6 text-sm text-gray-500 font-bold uppercase tracking-widest">
+                        <a href="services.html" class="hover:text-white transition-colors">Portfolios</a>
+                        <a href="pricing.html" class="hover:text-white transition-colors">Investment</a>
+                        <a href="gallery.html" class="hover:text-white transition-colors">The Space</a>
+                        <a href="contact.html" class="hover:text-white transition-colors">Establish Sync</a>
+                    </nav>
+                </div>
+                <div>
+                    <h5 class="text-[10px] uppercase font-bold tracking-[0.4em] text-[var(--luxe-accent)] mb-10">
+                        Headquarters</h5>
+                    <address class="not-italic text-sm text-gray-500 font-bold uppercase tracking-widest leading-loose">
+                        C-4/105, Pocket C 3,<br>
+                        New Kondli, Delhi,<br>
+                        India 110096
+                    </address>
+                </div>
+            </div>
+            <p class="text-[9px] font-bold uppercase tracking-[0.3em] text-gray-700 text-center">&copy; 2026 NeoCyber
+                Luxe Global Hub.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

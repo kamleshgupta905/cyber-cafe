@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NeoCyber Luxe - Delhi's most premium digital hub. High-speed fiber, RTX gaming, and silent workstations for professionals.">
+    <meta name="keywords"
+        content="cyber cafe delhi, premium gaming zone, high speed internet, digital hub, coworking space delhi">
+    <title>NeoCyber Luxe | Premier Digital Hub & Gaming Sanctuary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#050505] text-white">
+
+    <!-- Header Luxe -->
+    <nav class="fixed top-0 w-full z-[100] nav-luxe h-20">
+        <div class="container-luxe h-full flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold tracking-[0.2em] uppercase">NeoCyber<span
+                    class="text-[var(--luxe-accent)]"> / </span>Hub</a>
+
+            <!-- Desktop Links -->
+            <div class="hidden lg:flex items-center space-x-12">
+                <a href="index.html" class="nav-link-luxe active">Home</a>
+                <a href="services.html" class="nav-link-luxe">Services</a>
+                <a href="pricing.html" class="nav-link-luxe">Pricing</a>
+                <a href="gallery.html" class="nav-link-luxe">Gallery</a>
+                <a href="contact.html" class="nav-link-luxe">Contact</a>
+                <a href="contact.html" class="btn-luxe btn-luxe-primary !py-2 !px-8 !text-[9px]">Secure Access</a>
+            </div>
+
+            <!-- Mobile Burger -->
+            <button id="mobile-burger-btn"
+                class="lg:hidden text-white hover:text-[var(--luxe-accent)] transition-colors p-2">
+                <svg id="burger-icon" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+        <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+        <a href="contact.html" class="btn-luxe btn-luxe-primary !mt-8">Secure Access</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center relative pt-20">
+        <div class="container-luxe grid lg:grid-cols-2 gap-20 items-center">
+            <div class="reveal-luxe active">
+                <header>
+                    <span
+                        class="text-[var(--luxe-accent)] text-[10px] font-bold tracking-[.4em] uppercase mb-8 block">Exclusive
+                        Digital Sanctuary</span>
+                    <h1 class="hero-title-luxe mb-8">Spatial <br>Precision.</h1>
+                </header>
+                <p class="text-lg text-gray-400 max-w-lg mb-12">Architecturally designed for peak performance. Delhi's
+                    premier destination for high-stakes digital execution.</p>
+                <div class="flex flex-wrap gap-6">
+                    <a href="pricing.html" class="btn-luxe btn-luxe-primary">View Portfolios</a>
+                    <a href="services.html" class="btn-luxe btn-luxe-outline">Capabilities</a>
+                </div>
+            </div>
+            <div class="hidden lg:block reveal-luxe" style="transition-delay: 200ms;">
+                <div class="card-luxe border-none bg-transparent shadow-none">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" alt="NeoCyber Hub Interior"
+                        class="w-full h-full object-cover rounded-xl grayscale opacity-60">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operational Stats -->
+    <section class="py-32 border-y border-[var(--luxe-border)] bg-[#030303]">
+        <div class="container-luxe">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+                <div class="reveal-luxe">
+                    <div class="text-4xl font-bold text-[var(--luxe-accent)] mb-2">1 Gbps</div>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-600">Pure Fiber</p>
+                </div>
+                <div class="reveal-luxe" style="transition-delay: 100ms;">
+                    <div class="text-4xl font-bold text-[var(--luxe-accent)] mb-2">RTX 40</div>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-600">Graphics Core</p>
+                </div>
+                <div class="reveal-luxe" style="transition-delay: 200ms;">
+                    <div class="text-4xl font-bold text-[var(--luxe-accent)] mb-2">08 AM</div>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-600">Daily Opening</p>
+                </div>
+                <div class="reveal-luxe" style="transition-delay: 300ms;">
+                    <div class="text-4xl font-bold text-[var(--luxe-accent)] mb-2">24/7</div>
+                    <p class="text-[10px] uppercase tracking-widest text-gray-600">Technical Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Arsenal -->
+    <section class="py-48 bg-[#080808]">
+        <div class="container-luxe">
+            <div class="mb-32 reveal-luxe text-center">
+                <h2 class="section-title mb-6">Hardware <br><span class="text-[var(--luxe-accent)]">Arsenal.</span></h2>
+                <div class="w-24 h-[1px] bg-[var(--luxe-accent)] mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box h-48"><img
+                            src="https://images.unsplash.com/photo-1542751371-adc38448a05e" class="card-luxe-img"></div>
+                    <div class="card-luxe-body !p-6 text-center">
+                        <h4 class="text-xs font-bold uppercase tracking-widest mb-2">Visuals</h4>
+                        <p class="text-[10px] text-gray-500">240Hz IPS Panels / 4K OLED</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe" style="transition-delay: 50ms;">
+                    <div class="card-luxe-img-box h-48"><img
+                            src="https://images.unsplash.com/photo-1591488320449-011701bb6704" class="card-luxe-img">
+                    </div>
+                    <div class="card-luxe-body !p-6 text-center">
+                        <h4 class="text-xs font-bold uppercase tracking-widest mb-2">Compute</h4>
+                        <p class="text-[10px] text-gray-500">Intel i9 / Ryzen 9 Elite</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe" style="transition-delay: 100ms;">
+                    <div class="card-luxe-img-box h-48"><img
+                            src="https://images.unsplash.com/photo-1595225476474-87563907a212" class="card-luxe-img">
+                    </div>
+                    <div class="card-luxe-body !p-6 text-center">
+                        <h4 class="text-xs font-bold uppercase tracking-widest mb-2">Input</h4>
+                        <p class="text-[10px] text-gray-500">Mechanical / Optical Switches</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe" style="transition-delay: 150ms;">
+                    <div class="card-luxe-img-box h-48"><img
+                            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" class="card-luxe-img">
+                    </div>
+                    <div class="card-luxe-body !p-6 text-center">
+                        <h4 class="text-xs font-bold uppercase tracking-widest mb-2">Audio</h4>
+                        <p class="text-[10px] text-gray-500">Spatial ANC Headsets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expanded Features Grid (12 Items) -->
+    <section class="py-48">
+        <div class="container-luxe">
+            <div class="text-center mb-32 reveal-luxe">
+                <h2 class="section-title mb-6">World Class <br><span
+                        class="text-[var(--luxe-accent)]">Operations.</span></h2>
+                <p class="text-gray-500 uppercase tracking-[0.2em] text-[10px]">Specialized Digital Ecosystem</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img
+                            src="https://images.unsplash.com/photo-1593305841991-05c297ba4575" alt="Gigabit Internet"
+                            class="card-luxe-img"></div>
+                    <div class="card-luxe-body">
+                        <span class="card-tag">Speed</span>
+                        <h3 class="card-title">Gigabit Backbone</h3>
+                        <p class="card-desc">Symmetrical fiber connectivity with 99.9% uptime guarantee.</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+                            alt="Gaming" class="card-luxe-img"></div>
+                    <div class="card-luxe-body"><span class="card-tag">Arena</span>
+                        <h3 class="card-title">RTX Suites</h3>
+                        <p class="card-desc">Elite gaming environments powered by NVIDIA RTX technology.</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img
+                            src="https://images.unsplash.com/photo-1517502884422-41eaead166d4" alt="Quiet Zone"
+                            class="card-luxe-img"></div>
+                    <div class="card-luxe-body"><span class="card-tag">Focus</span>
+                        <h3 class="card-title">Silent Pods</h3>
+                        <p class="card-desc">Acoustically superior pods designed for cognitive flow.</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img
+                            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+                            alt="Data Security" class="card-luxe-img"></div>
+                    <div class="card-luxe-body"><span class="card-tag">Security</span>
+                        <h3 class="card-title">Secure Node</h3>
+                        <p class="card-desc">Privacy-first networking for financial and personal data.</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img src="https://images.unsplash.com/photo-1562564055-71e051d33c19"
+                            alt="Print" class="card-luxe-img"></div>
+                    <div class="card-luxe-body"><span class="card-tag">Lab</span>
+                        <h3 class="card-title">Print Atelier</h3>
+                        <p class="card-desc">Industrial large-format plotting and document precision.</p>
+                    </div>
+                </div>
+                <div class="card-luxe reveal-luxe">
+                    <div class="card-luxe-img-box"><img
+                            src="https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=800&q=80"
+                            alt="Support" class="card-luxe-img"></div>
+                    <div class="card-luxe-body"><span class="card-tag">Service</span>
+                        <h3 class="card-title">Concierge Desk</h3>
+                        <p class="card-desc">Expert assistance for national and international digital portals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Perks -->
+    <section class="py-48 bg-[#0a0a0a] border-t border-[var(--luxe-border)]">
+        <div class="container-luxe">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="reveal-luxe">
+                    <h2 class="section-title mb-10">Membership <br><span
+                            class="text-[var(--luxe-accent)]">Privileges.</span></h2>
+                    <p class="text-gray-500 mb-12">Join the elite circle of professionals and gamers who call NeoCyber
+                        home.</p>
+                    <div class="grid gap-6">
+                        <div class="card-luxe flex items-center p-6">
+                            <div
+                                class="w-12 h-12 bg-[var(--luxe-accent)] rounded-full flex items-center justify-center text-black font-bold mr-6">
+                                01</div>
+                            <div>
+                                <h4 class="font-bold text-white">Priority Booking</h4>
+                                <p class="text-xs text-gray-500">Skip the queue on weekends.</p>
+                            </div>
+                        </div>
+                        <div class="card-luxe flex items-center p-6">
+                            <div
+                                class="w-12 h-12 bg-[var(--luxe-accent)] rounded-full flex items-center justify-center text-black font-bold mr-6">
+                                02</div>
+                            <div>
+                                <h4 class="font-bold text-white">Locker Access</h4>
+                                <p class="text-xs text-gray-500">Secure storage for your peripherals.</p>
+                            </div>
+                        </div>
+                        <div class="card-luxe flex items-center p-6">
+                            <div
+                                class="w-12 h-12 bg-[var(--luxe-accent)] rounded-full flex items-center justify-center text-black font-bold mr-6">
+                                03</div>
+                            <div>
+                                <h4 class="font-bold text-white">Beta Events</h4>
+                                <p class="text-xs text-gray-500">Exclusive invites to tournaments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-luxe relative">
+                    <div class="card-luxe h-[600px] border-none">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7"
+                            class="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-luxe pt-32 pb-16 border-t border-[var(--luxe-border)]">
+        <div class="container-luxe">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-24 mb-32">
+                <div class="md:col-span-2">
+                    <a href="index.html" class="text-2xl font-bold tracking-[0.2em] uppercase mb-10 block">NeoCyber
+                        Luxe</a>
+                    <p class="text-gray-500 max-w-sm leading-relaxed mb-10">Delhi's premier sanctuary for digital
+                        performance. Bridging the gap between superior technology and architectural design.</p>
+                    <div class="flex gap-6">
+                        <a href="#"
+                            class="w-10 h-10 border border-[var(--luxe-border)] rounded-full flex items-center justify-center hover:border-[var(--luxe-accent)] transition-all">FB</a>
+                        <a href="#"
+                            class="w-10 h-10 border border-[var(--luxe-border)] rounded-full flex items-center justify-center hover:border-[var(--luxe-accent)] transition-all">IG</a>
+                        <a href="#"
+                            class="w-10 h-10 border border-[var(--luxe-border)] rounded-full flex items-center justify-center hover:border-[var(--luxe-accent)] transition-all">WA</a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-[10px] uppercase font-bold tracking-[0.4em] text-[var(--luxe-accent)] mb-10">
+                        Exploration</h5>
+                    <nav class="flex flex-col gap-6 text-sm text-gray-500 font-bold uppercase tracking-widest">
+                        <a href="services.html" class="hover:text-white transition-colors">Portfolios</a>
+                        <a href="pricing.html" class="hover:text-white transition-colors">Investment</a>
+                        <a href="gallery.html" class="hover:text-white transition-colors">The Space</a>
+                        <a href="contact.html" class="hover:text-white transition-colors">Establish Sync</a>
+                    </nav>
+                </div>
+                <div>
+                    <h5 class="text-[10px] uppercase font-bold tracking-[0.4em] text-[var(--luxe-accent)] mb-10">
+                        Headquarters</h5>
+                    <address class="not-italic text-sm text-gray-500 font-bold uppercase tracking-widest leading-loose">
+                        C-4/105, Pocket C 3,<br>
+                        New Kondli, Delhi,<br>
+                        India 110096
+                    </address>
+                </div>
+            </div>
+            <div
+                class="flex flex-col md:flex-row justify-between items-center pt-16 border-t border-[var(--luxe-border)] text-[9px] font-bold uppercase tracking-[0.3em] text-gray-700">
+                <p>&copy; 2026 NeoCyber Hub Global Ltd. All Rights Reserved.</p>
+                <div class="flex gap-12 mt-8 md:mt-0">
+                    <a href="#">Security Protocol</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Access</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
