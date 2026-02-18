@@ -78,9 +78,9 @@ body {
 
 /* --- TYPOGRAPHY RESPONSIVE --- */
 .hero-title-luxe {
-    font-size: clamp(3rem, 12vw, 9.5rem);
+    font-size: clamp(3rem, 10vw, 7.5rem);
     font-weight: 700;
-    line-height: 0.85;
+    line-height: 0.9;
     letter-spacing: -0.05em;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%);
     -webkit-background-clip: text;
